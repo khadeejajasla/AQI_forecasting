@@ -2,7 +2,7 @@
 
 Forecasting Air Quality Index (AQI) across major Indian cities using time series models, with an interactive dashboard for exploring trends and future predictions.
 
-🔗 **Live Demo:** https://aqi-forecasting-india.streamlit.app/
+🔗 **Live Demo:** [aqi-forecasting-india.streamlit.app](https://aqi-forecasting-india.streamlit.app/)
 
 ---
 
