@@ -15,14 +15,13 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<h1 style='text-align: center;'>🌫️ Air Quality Index Forecasting</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Air Quality Index Forecasting</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: gray;'>Forecasting pollution trends across major Indian cities using Facebook Prophet</p>", unsafe_allow_html=True)
 st.divider()
 
 df = pd.read_csv('city_day_cleaned.csv')
 df['Date'] = pd.to_datetime(df['Date'])
 
-st.sidebar.image("https://img.icons8.com/emoji/96/fog.png", width=80)
 st.sidebar.header("Dashboard Controls")
 city = st.sidebar.selectbox("🏙️ Select a city", [
     'Delhi', 'Mumbai', 'Kolkata', 'Bengaluru',
